@@ -1,0 +1,235 @@
+{
+	"info": {
+		"_postman_id": "ba69b419-1d49-4e1c-90ea-1ed3a564afbc",
+		"name": "AddToWallet",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "18531582"
+	},
+	"item": [
+		{
+			"name": "localhost:3000/addToWallet Manufacturer",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "organisation",
+							"value": "Manufacturer",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "localhost:3000/addToWallet",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"addToWallet"
+					],
+					"query": [
+						{
+							"key": "certificatePath",
+							"value": "/home/rakesh/workspace/pharma-net/Network/crypto-config/peerOrganizations/manufacturer.pharma-network.com/users/Admin@manufacturer.pharma-network.com/msp/signcerts/Admin@manufacturer.pharma-network.com-cert.pem",
+							"disabled": true
+						},
+						{
+							"key": "privateKeyPath",
+							"value": "/home/rakesh/workspace/pharma-net/Network/crypto-config/peerOrganizations/manufacturer.pharma-network.com/users/Admin@manufacturer.pharma-network.com/msp/keystore/88345de0fb9e5fa39cab163be4fe5689b5193a594a4f8848e86a117f40982624_sk",
+							"disabled": true
+						},
+						{
+							"key": "organisation",
+							"value": "Manufacturer",
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:3000/addToWallet Distributor",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "organisation",
+							"value": "Distributor",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "localhost:3000/addToWallet",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"addToWallet"
+					],
+					"query": [
+						{
+							"key": "certificatePath",
+							"value": "/home/rakesh/workspace/pharma-net/Network/crypto-config/peerOrganizations/manufacturer.pharma-network.com/users/Admin@manufacturer.pharma-network.com/msp/signcerts/Admin@manufacturer.pharma-network.com-cert.pem",
+							"disabled": true
+						},
+						{
+							"key": "privateKeyPath",
+							"value": "/home/rakesh/workspace/pharma-net/Network/crypto-config/peerOrganizations/manufacturer.pharma-network.com/users/Admin@manufacturer.pharma-network.com/msp/keystore/88345de0fb9e5fa39cab163be4fe5689b5193a594a4f8848e86a117f40982624_sk",
+							"disabled": true
+						},
+						{
+							"key": "organisation",
+							"value": "Manufacturer",
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:3000/addToWallet Retailer",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "organisation",
+							"value": "Retailer",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "localhost:3000/addToWallet",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"addToWallet"
+					],
+					"query": [
+						{
+							"key": "certificatePath",
+							"value": "/home/rakesh/workspace/pharma-net/Network/crypto-config/peerOrganizations/manufacturer.pharma-network.com/users/Admin@manufacturer.pharma-network.com/msp/signcerts/Admin@manufacturer.pharma-network.com-cert.pem",
+							"disabled": true
+						},
+						{
+							"key": "privateKeyPath",
+							"value": "/home/rakesh/workspace/pharma-net/Network/crypto-config/peerOrganizations/manufacturer.pharma-network.com/users/Admin@manufacturer.pharma-network.com/msp/keystore/88345de0fb9e5fa39cab163be4fe5689b5193a594a4f8848e86a117f40982624_sk",
+							"disabled": true
+						},
+						{
+							"key": "organisation",
+							"value": "Manufacturer",
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:3000/addToWallet Transporter",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "organisation",
+							"value": "Transporter",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "localhost:3000/addToWallet",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"addToWallet"
+					],
+					"query": [
+						{
+							"key": "certificatePath",
+							"value": "/home/rakesh/workspace/pharma-net/Network/crypto-config/peerOrganizations/manufacturer.pharma-network.com/users/Admin@manufacturer.pharma-network.com/msp/signcerts/Admin@manufacturer.pharma-network.com-cert.pem",
+							"disabled": true
+						},
+						{
+							"key": "privateKeyPath",
+							"value": "/home/rakesh/workspace/pharma-net/Network/crypto-config/peerOrganizations/manufacturer.pharma-network.com/users/Admin@manufacturer.pharma-network.com/msp/keystore/88345de0fb9e5fa39cab163be4fe5689b5193a594a4f8848e86a117f40982624_sk",
+							"disabled": true
+						},
+						{
+							"key": "organisation",
+							"value": "Manufacturer",
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:3000/addToWallet Consumer",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "organisation",
+							"value": "Consumer",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "localhost:3000/addToWallet",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"addToWallet"
+					],
+					"query": [
+						{
+							"key": "certificatePath",
+							"value": "/home/rakesh/workspace/pharma-net/Network/crypto-config/peerOrganizations/manufacturer.pharma-network.com/users/Admin@manufacturer.pharma-network.com/msp/signcerts/Admin@manufacturer.pharma-network.com-cert.pem",
+							"disabled": true
+						},
+						{
+							"key": "privateKeyPath",
+							"value": "/home/rakesh/workspace/pharma-net/Network/crypto-config/peerOrganizations/manufacturer.pharma-network.com/users/Admin@manufacturer.pharma-network.com/msp/keystore/88345de0fb9e5fa39cab163be4fe5689b5193a594a4f8848e86a117f40982624_sk",
+							"disabled": true
+						},
+						{
+							"key": "organisation",
+							"value": "Manufacturer",
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

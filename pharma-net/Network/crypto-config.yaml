@@ -1,0 +1,41 @@
+OrdererOrgs:
+  - Name: Orderer
+    Domain: pharma-network.com
+    Specs:
+      - Hostname: orderer
+PeerOrgs:
+ - Name: Manufacturer
+   Domain: manufacturer.pharma-network.com
+   EnableNodeOUs: true
+   Template:
+      Count: 2
+   Users:
+      Count: 0
+ - Name: Distributor
+   Domain: distributor.pharma-network.com
+   EnableNodeOUs: true
+   Template:
+      Count: 2
+   Users:
+      Count: 0
+ - Name: Retailer
+   Domain: retailer.pharma-network.com
+   EnableNodeOUs: true
+   Template:
+      Count: 2
+   Users:
+      Count: 0
+ - Name: Transporter
+   Domain: transporter.pharma-network.com
+   EnableNodeOUs: true
+   Template:
+      Count: 2
+   Users:
+      Count: 0    
+ - Name: Consumer
+   Domain: consumer.pharma-network.com
+   EnableNodeOUs: true
+   Template:
+      Count: 2
+   Users:
+      Count: 0     
